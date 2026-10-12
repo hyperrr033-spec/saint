@@ -9,10 +9,16 @@ namespace lacz::cfg {
 
 std::string directory() {
     char path[MAX_PATH]{};
-    GetEnvironmentVariableA("APPDATA", path, MAX_PATH);
-    std::string dir = std::string(path) + "\\LaczDLC\\configs";
-    std::filesystem::create_directories(dir);
-    return dir;
+    const DWORD length = GetEnvironmentVariableA("APPDATA", path, MAX_PATH);
+    if (length == 0 || length >= MAX_PATH)
+        return {};
+
+    const auto dir = std::filesystem::path(path) / "LaczDLC" / "configs";
+    std::error_code ec;
+    std::filesystem::create_directories(dir, ec);
+    if (ec)
+        return {};
+    return dir.string();
 }
 
 // ---------------------------------------------------------------------------
@@ -185,6 +191,8 @@ bool save(const std::string& name) {
 
     try {
         const auto dir = directory();
+        if (dir.empty())
+            return false;
         return write_cfg(dir + "\\" + name + ".lacz");
     } catch (const std::filesystem::filesystem_error&) {
         return false;
@@ -374,7 +382,10 @@ bool load(const std::string& name) {
         return false;
 
     try {
-        std::ifstream in(directory() + "\\" + name + ".lacz");
+        const auto dir = directory();
+        if (dir.empty())
+            return false;
+        std::ifstream in(dir + "\\" + name + ".lacz");
         if (!in.is_open())
             return false;
 
@@ -396,7 +407,7 @@ std::vector<std::string> list() {
     std::vector<std::string> out;
     try {
         const auto dir = directory();
-        if (!std::filesystem::exists(dir))
+        if (dir.empty() || !std::filesystem::exists(dir))
             return out;
 
         for (const auto& entry : std::filesystem::directory_iterator(dir)) {
