@@ -68,6 +68,8 @@ static bool install_hooks() {
             reinterpret_cast<void*>(off::sigs.create_move),
             hooks::as_ptr(&create_move_detour),
             reinterpret_cast<void**>(&o_create_move), "CreateMove");
+        if (!ok)
+            log::write("CreateMove hook attach failed (target=%p)", reinterpret_cast<void*>(off::sigs.create_move));
         all_ok = all_ok && ok;
     } else {
         log::write("CreateMove hook skipped: signature unavailable");
@@ -80,6 +82,8 @@ static bool install_hooks() {
             reinterpret_cast<void*>(off::sigs.frame_stage),
             hooks::as_ptr(&frame_stage_detour),
             reinterpret_cast<void**>(&o_frame_stage), "FrameStageNotify");
+        if (!ok)
+            log::write("FrameStageNotify hook attach failed (target=%p)", reinterpret_cast<void*>(off::sigs.frame_stage));
         all_ok = all_ok && ok;
     } else {
         log::write("FrameStageNotify hook skipped: signature unavailable");
