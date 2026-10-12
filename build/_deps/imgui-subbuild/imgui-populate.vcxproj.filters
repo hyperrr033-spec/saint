@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\b558c0d7b0fe406029e16f721f71d5a2\imgui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\20ea1c32db7a07c6ee85e35e46c9647b\imgui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\f22d4a93492a951a982ba43fb173b85a\imgui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2CF1645B-51C2-3045-8697-8BDE17F92172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/f22d4a93492a951a982ba43fb173b85a/imgui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/20ea1c32db7a07c6ee85e35e46c9647b/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/imgui-subbuild/CMakeFiles/b558c0d7b0fe406029e16f721f71d5a2/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

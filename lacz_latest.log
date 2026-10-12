@@ -1,0 +1,472 @@
+[15:44:23.274] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[15:48:01.344] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[15:48:01.345] client.dll found
+[15:48:01.345] resolving offsets/interfaces...
+[15:48:03.321] offsets OK (entity_list=7FFAEC138320 trace=7FFAEB86A6B0)
+[15:48:03.321] installing render hooks...
+[15:48:03.438] render hooks installed
+[15:49:25.023] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[15:49:25.023] client.dll found
+[15:49:25.023] resolving offsets/interfaces...
+[15:49:28.165] offsets OK (entity_list=7FFAEC658320 trace=7FFAEBD8A6B0)
+[15:49:28.165] installing render hooks...
+[15:49:28.276] render hooks installed
+[15:49:43.502] shutting down
+[15:55:18.473] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[15:55:18.474] client.dll found
+[15:55:18.474] resolving offsets/interfaces...
+[15:55:21.380] offsets OK (entity_list=7FFAEBA78320 trace=7FFAEB1AA6B0)
+[15:55:21.380] installing render hooks...
+[15:55:21.492] render hooks installed
+[15:55:36.320] shutting down
+[15:56:51.429] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[15:56:51.430] client.dll found
+[15:56:51.430] resolving offsets/interfaces...
+[15:56:53.031] offsets OK (entity_list=7FFAEC9F8320 trace=7FFAEC12A6B0)
+[15:56:53.031] installing render hooks...
+[15:56:53.144] render hooks installed
+[16:04:00.390] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:04:00.392] client.dll found
+[16:04:00.392] resolving offsets/interfaces...
+[16:04:02.177] offsets OK (entity_list=7FFAEBE68320 trace=7FFAEB59A6B0)
+[16:04:02.177] installing render hooks...
+[16:04:02.324] render hooks installed
+[16:05:50.151] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:05:50.152] client.dll found
+[16:05:50.152] resolving offsets/interfaces...
+[16:05:52.572] offsets OK (entity_list=7FFAEC588320 trace=7FFAEBCBA6B0)
+[16:05:52.572] installing render hooks...
+[16:05:52.682] render hooks installed
+[16:06:01.760] shutting down
+[16:09:37.634] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:09:37.634] client.dll found
+[16:09:37.634] resolving offsets/interfaces...
+[16:09:40.156] offsets OK (entity_list=7FFAEC588320 trace=7FFAEBCBA6B0)
+[16:09:40.156] installing render hooks...
+[16:09:40.244] render hooks installed
+[16:09:56.681] shutting down
+[16:22:42.330] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:22:42.331] client.dll found
+[16:22:42.331] resolving offsets/interfaces...
+[16:22:43.892] offsets OK (entity_list=7FFAC4D38320 trace=7FFAC446A6B0)
+[16:22:43.892] installing render hooks...
+[16:22:44.018] render hooks installed
+[16:23:40.352] shutting down
+[16:25:00.466] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:25:00.466] client.dll found
+[16:25:00.467] resolving offsets/interfaces...
+[16:25:02.103] offsets OK (entity_list=7FFAC4D38320 trace=7FFAC446A6B0)
+[16:25:02.103] installing render hooks...
+[16:25:02.209] render hooks installed
+[16:25:18.843] shutting down
+[16:26:43.494] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:26:43.496] client.dll found
+[16:26:43.497] resolving offsets/interfaces...
+[16:26:45.771] offsets OK (entity_list=7FFAEC6A8320 trace=7FFAEBDDA6B0)
+[16:26:45.771] installing render hooks...
+[16:26:45.895] render hooks installed
+[16:40:41.729] shutting down
+[16:45:04.726] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:45:04.726] client.dll found
+[16:45:04.726] resolving offsets/interfaces...
+[16:45:06.653] offsets OK (entity_list=7FFAD9908320 trace=7FFAD903A6B0)
+[16:45:06.654] installing render hooks...
+[16:45:06.763] render hooks installed
+[17:45:37.436] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[17:45:37.440] client.dll found
+[17:45:37.440] resolving offsets/interfaces...
+[17:45:40.187] offsets OK (entity_list=7FFADC1F8320 trace=7FFADB92A6B0)
+[17:45:40.187] installing render hooks...
+[17:45:40.335] render hooks installed
+[17:48:35.659] shutting down
+[17:50:43.182] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[17:50:43.182] client.dll found
+[17:50:43.182] resolving offsets/interfaces...
+[17:50:44.828] Resolved state: vm=0x0 local_player=0x0 entity_list=0x7FFADC1F8320 gv=0x0
+[17:50:44.828] Netvars: hp=0x344 team=0x3E3 pawn=0x0 origin=0x138
+[17:50:44.828] offsets OK (entity_list=7FFADC1F8320 trace=7FFADB92A6B0)
+[17:50:44.828] installing render hooks...
+[17:50:44.947] render hooks installed
+[17:50:48.165] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:50:51.782] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:50:55.260] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:50:58.375] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:51:01.680] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:51:04.811] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:51:08.266] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:51:11.821] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:51:15.404] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:51:19.046] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:51:22.952] shared::update tick: local_ctrl=0x0000000000000000 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=no
+[17:55:42.613] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[17:55:42.614] client.dll found
+[17:55:42.614] resolving offsets/interfaces...
+[17:55:46.806] local_player pattern result: match=0x7FFADA0EC788 resolved=0x7FFADC6B0188
+[17:55:46.845] view_matrix pattern result: match=0x7FFADABD3E93 resolved=0x7FFADC526910
+[17:55:47.337] Resolved state: vm=0x7FFADC526910 local_player=0x7FFADC6B0188 entity_list=0x7FFADC1F8320 gv=0x0
+[17:55:47.338] Netvars: hp=0x344 team=0x3E3 pawn=0x60C origin=0x138
+[17:55:47.338] offsets OK (entity_list=7FFADC1F8320 trace=7FFADB92A6B0)
+[17:55:47.338] installing render hooks...
+[17:55:47.464] render hooks installed
+[17:55:50.012] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:55:52.772] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:55:55.758] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:55:59.296] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:03.034] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:06.704] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:10.109] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:12.999] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:17.141] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:20.679] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:24.205] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:27.755] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:31.175] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:33.282] shutting down
+[17:56:41.594] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[17:56:41.594] client.dll found
+[17:56:41.594] resolving offsets/interfaces...
+[17:56:42.981] local_player pattern result: match=0x7FFADA0EC788 resolved=0x7FFADC6B0188
+[17:56:43.016] view_matrix pattern result: match=0x7FFADABD3E93 resolved=0x7FFADC526910
+[17:56:43.522] Resolved state: vm=0x7FFADC526910 local_player=0x7FFADC6B0188 entity_list=0x7FFADC1F8320 gv=0x0
+[17:56:43.522] Netvars: hp=0x344 team=0x3E3 pawn=0x60C origin=0x138
+[17:56:43.523] offsets OK (entity_list=7FFADC1F8320 trace=7FFADB92A6B0)
+[17:56:43.523] installing render hooks...
+[17:56:43.642] render hooks installed
+[17:56:46.800] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:49.708] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=0 enemies=0 matrix=yes
+[17:56:50.499] shutting down
+[18:02:11.200] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[18:02:11.200] client.dll found
+[18:02:11.200] resolving offsets/interfaces...
+[18:02:13.832] local_player pattern result: match=0x7FFADA0EC788 resolved=0x7FFADC6B0188
+[18:02:13.868] view_matrix pattern result: match=0x7FFADABD3E93 resolved=0x7FFADC526910
+[18:02:14.368] Resolved state: vm=0x7FFADC526910 local_player=0x7FFADC6B0188 entity_list=0x7FFADC1F8320 gv=0x0
+[18:02:14.368] Netvars: hp=0x344 team=0x3E3 pawn=0x60C origin=0x138
+[18:02:14.368] offsets OK (entity_list=7FFADC1F8320 trace=7FFADB92A6B0)
+[18:02:14.368] installing render hooks...
+[18:02:14.479] render hooks installed
+[18:02:17.005] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:19.567] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:22.138] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:24.706] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:27.264] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:29.832] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:32.389] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:34.959] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:37.518] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:40.085] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:42.721] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:45.442] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:48.561] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:51.619] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:54.803] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:02:59.160] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:03:02.459] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:03:05.392] shared::update tick: local_ctrl=0x00007FFADC6B0220 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[18:03:06.234] shutting down
+[10:50:18.531] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[10:50:18.531] client.dll found
+[10:50:18.531] resolving offsets/interfaces...
+[10:50:19.757] local_player pattern result: match=0x7FF80DA0C788 resolved=0x7FF80FFD2198
+[10:50:19.793] view_matrix pattern result: match=0x7FF80E4F3E83 resolved=0x7FF80FE47FA0
+[10:50:20.267] Resolved state: vm=0x7FF80FE47FA0 local_player=0x7FF80FFD2198 entity_list=0x7FF80FB1A320 gv=0x0
+[10:50:20.267] Netvars: hp=0x344 team=0x3E3 pawn=0x60C origin=0x138
+[10:50:20.268] offsets OK (entity_list=7FF80FB1A320 trace=7FF80F24CDC0)
+[10:50:20.268] installing render hooks...
+[10:50:20.491] render hooks installed
+[10:50:23.767] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:26.974] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:30.168] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:33.824] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:36.508] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:40.482] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:44.471] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:48.157] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:51.796] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:55.472] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:50:59.151] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:02.858] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:06.513] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:10.329] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:13.631] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:17.062] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:20.628] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:24.175] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:51:27.724] shared::update tick: local_ctrl=0x00007FF80FFD2230 local_pawn=0x0000000000000000 alive=0 pawns=2 enemies=0 matrix=yes
+[10:59:29.664] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[10:59:29.740] client.dll found
+[10:59:29.740] resolving offsets/interfaces...
+[10:59:31.041] local_player pattern result: match=0x7FFFD5ECC788 resolved=0x7FFFD8492198
+[10:59:31.080] view_matrix pattern result: match=0x7FFFD69B3E83 resolved=0x7FFFD8307FA0
+[10:59:31.636] Resolved state: vm=0x7FFFD8307FA0 local_player=0x7FFFD8492198 entity_list=0x7FFFD7FDA320 gv=0x0
+[10:59:31.637] Netvars: hp=0x344 team=0x3E3 pawn=0x60C origin=0x138
+[10:59:31.637] offsets OK (entity_list=7FFFD7FDA320 trace=7FFFD770CDC0)
+[10:59:31.637] installing render hooks...
+[10:59:31.831] render hooks installed
+[10:59:36.367] shared::update tick: local_ctrl=0x00007FFFD8492230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:59:41.241] shared::update tick: local_ctrl=0x00007FFFD8492230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:59:46.094] shared::update tick: local_ctrl=0x00007FFFD8492230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:59:50.282] shared::update tick: local_ctrl=0x00007FFFD8492230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:59:55.165] shared::update tick: local_ctrl=0x00007FFFD8492230 local_pawn=0x0000000000000000 alive=0 pawns=1 enemies=0 matrix=yes
+[10:59:56.552] shutting down
+[11:05:10.752] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[11:05:10.752] client.dll found
+[11:05:10.752] resolving offsets/interfaces...
+[11:05:11.563] local_player pattern result: match=0x7FFFD5ECC788 resolved=0x7FFFD8492198
+[11:05:11.602] view_matrix pattern result: match=0x7FFFD69B3E83 resolved=0x7FFFD8307FA0
+[11:05:12.086] Resolved state: vm=0x7FFFD8307FA0 local_player=0x7FFFD8492198 entity_list=0x7FFFD7FDA320 gv=0x0
+[11:05:12.086] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[11:05:12.086] offsets OK (entity_list=7FFFD7FDA320 trace=7FFFD770CDC0)
+[11:05:12.086] installing render hooks...
+[11:05:13.447] render hooks installed
+[11:05:17.799] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[11:05:22.276] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[11:05:27.120] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[11:05:31.311] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[11:05:36.122] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[11:05:38.075] shutting down
+[11:07:14.244] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[11:07:14.244] client.dll found
+[11:07:14.244] resolving offsets/interfaces...
+[11:07:15.095] local_player pattern result: match=0x7FFFD5ECC788 resolved=0x7FFFD8492198
+[11:07:15.137] view_matrix pattern result: match=0x7FFFD69B3E83 resolved=0x7FFFD8307FA0
+[11:07:15.635] Resolved state: vm=0x7FFFD8307FA0 local_player=0x7FFFD8492198 entity_list=0x7FFFD7FDA320 gv=0x0
+[11:07:15.635] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[11:07:15.635] offsets OK (entity_list=7FFFD7FDA320 trace=7FFFD770CDC0)
+[11:07:15.635] installing render hooks...
+[11:07:16.237] render hooks installed
+[11:07:21.264] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[11:07:25.722] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[11:07:29.667] tick: ctrl=0x00007FFFD8492230 pawn=0x0000000000000000 direct=0x0000000000000000 handle@0x92C=0x0 pawns=2 enemies=0 m=yes base=0x7FFFD5DA0000
+[10:31:28.124] === LaczDLC 2.0.0 starting (manual_mapped=1) ===
+[10:31:28.124] client.dll found
+[10:31:28.124] resolving offsets/interfaces...
+[10:31:28.125] FAIL: offset/signature resolution failed. Mandatory sigs: entity_list=0 global_vars=0 trace_ray=0
+[10:31:28.125] This means the signature patterns do not match your game build. Update src/sdk/offsets.cpp.
+[10:35:10.012] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[10:35:10.013] client.dll found
+[10:35:10.013] resolving offsets/interfaces...
+[10:35:10.382] local_player pattern result: match=0x7FFBD5613F54 resolved=0x7FFBD7613DD8
+[10:35:10.421] local_pawn pattern result: match=0x7FFBD5F85110 resolved=0x7FFBD74973D0
+[10:35:10.457] view_matrix pattern result: match=0x7FFBD5E731C3 resolved=0x7FFBD77C1CD0
+[10:35:11.306] Resolved state: vm=0x7FFBD77C1CD0 local_player=0x7FFBD7613DD8 local_pawn=0x7FFBD74973D0 entity_list=0x7FFBD7493D10 gv=0x0
+[10:35:11.306] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[10:35:11.310] offsets OK (entity_list=7FFBD7493D10 trace=7FFBD6BC8050)
+[10:35:11.310] installing render hooks...
+[10:35:11.658] render hooks installed
+[10:35:15.332] tick: ctrl=0x000003D3F45A2D20 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:17.906] tick: ctrl=0x000003D3F45A2D20 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:20.697] tick: ctrl=0x000003D3F45A2D20 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:23.321] tick: ctrl=0x000003D3F45A2D20 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:26.140] tick: ctrl=0x000003D3F45A2D20 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:30.433] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:33.676] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:40.615] tick: ctrl=0x000003D3F2A59160 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:46.005] tick: ctrl=0x000003D3F2A59160 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:51.216] tick: ctrl=0x000003D3F2A59160 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:35:56.248] tick: ctrl=0x000003D3F2A59160 pawn=0x00007FFBD6F02978 direct=0x00007FFBD6F02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:09.304] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[10:43:09.305] client.dll found
+[10:43:09.305] resolving offsets/interfaces...
+[10:43:09.674] local_player pattern result: match=0x7FFBD46C3F54 resolved=0x7FFBD66C3DD8
+[10:43:09.712] local_pawn pattern result: match=0x7FFBD5035110 resolved=0x7FFBD65473D0
+[10:43:09.762] view_matrix pattern result: match=0x7FFBD4F231C3 resolved=0x7FFBD6871CD0
+[10:43:10.708] Resolved state: vm=0x7FFBD6871CD0 local_player=0x7FFBD66C3DD8 local_pawn=0x7FFBD65473D0 entity_list=0x7FFBD6543D10 gv=0x0
+[10:43:10.708] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[10:43:10.708] offsets OK (entity_list=7FFBD6543D10 trace=7FFBD5C78050)
+[10:43:10.708] installing render hooks...
+[10:43:10.869] render hooks installed
+[10:43:13.578] tick: ctrl=0x000005AC4B6E3040 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:16.323] tick: ctrl=0x000005AC4B6E3040 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:19.808] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:22.964] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:27.133] tick: ctrl=0x000005AC640E8320 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:30.274] tick: ctrl=0x000005AC640E8320 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:34.153] tick: ctrl=0x000005AC640E8320 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:38.670] tick: ctrl=0x000005AC640E8320 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:43:44.135] tick: ctrl=0x000005AC640E8320 pawn=0x00007FFBD5FB2978 direct=0x00007FFBD5FB2978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:45:17.175] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[10:45:17.175] client.dll found
+[10:45:17.175] resolving offsets/interfaces...
+[10:45:17.586] local_player pattern result: match=0x7FFBD5333F54 resolved=0x7FFBD7333DD8
+[10:45:17.628] local_pawn pattern result: match=0x7FFBD5CA5110 resolved=0x7FFBD71B73D0
+[10:45:17.665] view_matrix pattern result: match=0x7FFBD5B931C3 resolved=0x7FFBD74E1CD0
+[10:45:18.965] Resolved state: vm=0x7FFBD74E1CD0 local_player=0x7FFBD7333DD8 local_pawn=0x7FFBD71B73D0 entity_list=0x7FFBD71B3D10 gv=0x0
+[10:45:18.966] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[10:45:18.966] offsets OK (entity_list=7FFBD71B3D10 trace=7FFBD68E8050)
+[10:45:18.966] installing render hooks...
+[10:45:19.112] render hooks installed
+[10:45:21.721] tick: ctrl=0x000004CC076E7490 pawn=0x00007FFBD6C22978 direct=0x00007FFBD6C22978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:45:24.782] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD6C22978 direct=0x00007FFBD6C22978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:45:28.261] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD6C22978 direct=0x00007FFBD6C22978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:45:31.905] tick: ctrl=0x000004CC12DADA00 pawn=0x00007FFBD6C22978 direct=0x00007FFBD6C22978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:45:35.020] tick: ctrl=0x000004CC12DADA00 pawn=0x00007FFBD6C22978 direct=0x00007FFBD6C22978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:02.022] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[10:52:02.022] client.dll found
+[10:52:02.022] resolving offsets/interfaces...
+[10:52:03.239] local_player pattern result: match=0x7FFBCDA43F54 resolved=0x7FFBCFA43DD8
+[10:52:03.284] local_pawn pattern result: match=0x7FFBCE3B5110 resolved=0x7FFBCF8C73D0
+[10:52:03.328] view_matrix pattern result: match=0x7FFBCE2A31C3 resolved=0x7FFBCFBF1CD0
+[10:52:05.438] Resolved state: vm=0x7FFBCFBF1CD0 local_player=0x7FFBCFA43DD8 local_pawn=0x7FFBCF8C73D0 entity_list=0x7FFBCF8C3D10 gv=0x0
+[10:52:05.438] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[10:52:05.438] offsets OK (entity_list=7FFBCF8C3D10 trace=7FFBCEFF8050)
+[10:52:05.438] installing render hooks...
+[10:52:05.676] render hooks installed
+[10:52:08.504] tick: ctrl=0x000003DC641C4CC0 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:11.954] tick: ctrl=0x0000000000000000 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:15.617] tick: ctrl=0x0000000000000000 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:19.776] tick: ctrl=0x000003DC6B5EF6F0 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:22.042] tick: ctrl=0x000003DC6B5EF6F0 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:24.285] tick: ctrl=0x000003DC6B5EF6F0 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:30.191] tick: ctrl=0x000003DC6B5EF6F0 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[10:52:35.964] tick: ctrl=0x000003DC6B5EF6F0 pawn=0x00007FFBCF332978 direct=0x00007FFBCF332978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[12:01:18.633] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[12:01:18.634] client.dll found
+[12:01:18.634] resolving offsets/interfaces...
+[12:01:19.051] local_player pattern result: match=0x7FFBD3113F54 resolved=0x7FFBD5113DD8
+[12:01:19.096] local_pawn pattern result: match=0x7FFBD3A85110 resolved=0x7FFBD4F973D0
+[12:01:19.135] view_matrix pattern result: match=0x7FFBD39731C3 resolved=0x7FFBD52C1CD0
+[12:01:23.342] Resolved state: vm=0x7FFBD52C1CD0 local_player=0x7FFBD5113DD8 local_pawn=0x7FFBD4F973D0 entity_list=0x7FFBD4F93D10 gv=0x0
+[12:01:23.342] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[12:01:23.342] offsets OK (entity_list=7FFBD4F93D10 trace=7FFBD46C8050)
+[12:01:23.343] installing render hooks...
+[12:01:23.537] render hooks installed
+[12:01:26.296] tick: ctrl=0x000004AD19603260 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[12:01:29.183] tick: ctrl=0x000004AD19603260 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[12:01:32.478] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[12:01:35.982] tick: ctrl=0x0000000000000000 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[12:01:39.762] tick: ctrl=0x000004ACD02E9190 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=0
+[12:01:43.348] tick: ctrl=0x000004ACD02E9190 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=0
+[12:01:48.104] tick: ctrl=0x000004ACD02E9190 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=0
+[12:01:53.548] tick: ctrl=0x000004ACD02E9190 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=0
+[12:01:58.889] tick: ctrl=0x000004ACD02E9190 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=0
+[12:02:04.009] tick: ctrl=0x000004ACD02E9190 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=0
+[12:02:09.518] tick: ctrl=0x000004ACD02E9190 pawn=0x00007FFBD4A02978 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=0
+[12:07:15.224] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[12:07:15.224] client.dll found
+[12:07:15.224] resolving offsets/interfaces...
+[12:07:15.631] local_player pattern result: match=0x7FFBD3113F54 resolved=0x7FFBD5113DD8
+[12:07:15.673] local_pawn pattern result: match=0x7FFBD3A85110 resolved=0x7FFBD4F973D0
+[12:07:15.713] view_matrix pattern result: match=0x7FFBD39731C3 resolved=0x7FFBD52C1CD0
+[12:07:17.406] Resolved state: vm=0x7FFBD52C1CD0 local_player=0x7FFBD5113DD8 local_pawn=0x7FFBD4F973D0 entity_list=0x7FFBD4F93D10 gv=0x0
+[12:07:17.406] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[12:07:17.406] offsets OK (entity_list=7FFBD4F93D10 trace=7FFBD46C8050)
+[12:07:17.406] installing render hooks...
+[12:07:17.553] render hooks installed
+[12:07:20.079] tick: ctrl=0x00000211511F19B0 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[12:07:22.799] tick: ctrl=0x00000211511F19B0 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=0
+[12:07:25.985] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:07:28.870] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:07:32.993] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:07:36.080] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:07:40.036] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:07:45.623] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:07:50.642] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:07:55.885] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:08:01.389] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:08:06.107] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:08:11.161] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:08:16.304] tick: ctrl=0x000002112B455320 pawn=0x00000210F41D9390 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:13:59.942] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[12:13:59.943] client.dll found
+[12:13:59.943] resolving offsets/interfaces...
+[12:14:00.362] local_player pattern result: match=0x7FFBD3113F54 resolved=0x7FFBD5113DD8
+[12:14:00.405] local_pawn pattern result: match=0x7FFBD3A85110 resolved=0x7FFBD4F973D0
+[12:14:00.519] view_matrix pattern result: match=0x7FFBD39731C3 resolved=0x7FFBD52C1CD0
+[12:14:05.380] Resolved state: vm=0x7FFBD52C1CD0 local_player=0x7FFBD5113DD8 local_pawn=0x7FFBD4F973D0 entity_list=0x7FFBD4F93D10 gv=0x0
+[12:14:05.380] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[12:14:05.380] offsets OK (entity_list=7FFBD4F93D10 trace=7FFBD46C8050)
+[12:14:05.380] installing render hooks...
+[12:14:05.599] render hooks installed
+[12:14:14.713] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=1
+[12:14:18.306] tick: ctrl=0x000004B167800D00 pawn=0x000004B10B8292F0 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=2 enemies=2
+[12:14:48.945] shutting down
+[12:18:17.686] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[12:18:17.686] client.dll found
+[12:18:17.686] resolving offsets/interfaces...
+[12:18:18.095] local_player pattern result: match=0x7FFBD3113F54 resolved=0x7FFBD5113DD8
+[12:18:18.138] local_pawn pattern result: match=0x7FFBD3A85110 resolved=0x7FFBD4F973D0
+[12:18:18.179] view_matrix pattern result: match=0x7FFBD39731C3 resolved=0x7FFBD52C1CD0
+[12:18:19.093] Resolved state: vm=0x7FFBD52C1CD0 local_player=0x7FFBD5113DD8 local_pawn=0x7FFBD4F973D0 entity_list=0x7FFBD4F93D10 gv=0x0
+[12:18:19.093] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[12:18:19.094] offsets OK (entity_list=7FFBD4F93D10 trace=7FFBD46C8050)
+[12:18:19.094] installing render hooks...
+[12:18:19.284] render hooks installed
+[12:18:27.706] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=1
+[12:18:30.942] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=1
+[12:19:01.395] tick: ctrl=0x000005253D62A910 pawn=0x00000524E81C9290 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=1
+[12:34:43.854] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[12:34:43.855] client.dll found
+[12:34:43.855] resolving offsets/interfaces...
+[12:34:44.262] local_player pattern result: match=0x7FFBD3113F54 resolved=0x7FFBD5113DD8
+[12:34:44.305] local_pawn pattern result: match=0x7FFBD3A85110 resolved=0x7FFBD4F973D0
+[12:34:44.344] view_matrix pattern result: match=0x7FFBD39731C3 resolved=0x7FFBD52C1CD0
+[12:34:47.298] Resolved state: vm=0x7FFBD52C1CD0 local_player=0x7FFBD5113DD8 local_pawn=0x7FFBD4F973D0 entity_list=0x7FFBD4F93D10 gv=0x0
+[12:34:47.298] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[12:34:47.298] offsets OK (entity_list=7FFBD4F93D10 trace=7FFBD46C8050)
+[12:34:47.299] installing render hooks...
+[12:34:47.515] render hooks installed
+[12:34:56.104] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:34:59.144] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=1
+[12:35:24.275] tick: ctrl=0x000004EF76938DB0 pawn=0x0000000000000000 direct=0x00007FFBD4A02978 raw_ctrl=0x0 raw_pawn=0x0 pawns=1 enemies=1
+[12:45:07.141] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[12:45:07.142] client.dll found
+[12:45:07.142] resolving offsets/interfaces...
+[12:45:07.747] global_vars signature result: 0x0
+[12:45:07.787] entity_list signature result: 0x7FFBD4F93D10
+[12:45:07.798] local_player signature result: match=0x7FFBD3113F54 resolved=0x7FFBD5113DD8
+[12:45:07.843] local_pawn signature result: match=0x7FFBD3A85110 resolved=0x7FFBD4F973D0
+[12:45:07.885] view_matrix signature result: match=0x7FFBD39731C3 resolved=0x7FFBD52C1CD0
+[12:45:10.216] Resolved state: vm=0x7FFBD52C1CD0 local_player=0x7FFBD5113DD8 local_pawn=0x7FFBD4F973D0 entity_list=0x7FFBD4F93D10 gv=0x0
+[12:45:10.217] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[12:45:10.217] offsets OK (entity_list=7FFBD4F93D10 trace=7FFBD46C8050)
+[12:45:10.217] installing render hooks...
+[12:45:10.347] render hooks installed
+[12:45:12.874] tick: ctrl=0x000004B667566980 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:16.060] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:19.199] tick: ctrl=0x0000000000000000 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:23.942] tick: ctrl=0x000004B65D0DB4B0 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:27.853] tick: ctrl=0x000004B65D0DB4B0 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:32.921] tick: ctrl=0x000004B65D0DB4B0 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:38.071] tick: ctrl=0x000004B65D0DB4B0 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:43.405] tick: ctrl=0x000004B65D0DB4B0 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:48.715] tick: ctrl=0x000004B65D0DB4B0 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[12:45:54.296] tick: ctrl=0x000004B65D0DB4B0 pawn=0x0000000000000000 direct=0x0000000000000000 raw_ctrl=0x0 raw_pawn=0x0 pawns=0 enemies=0
+[16:26:31.944] === LaczDLC 2.0.0 starting (manual_mapped=0) ===
+[16:26:31.945] client.dll found
+[16:26:31.945] resolving offsets/interfaces...
+[16:26:32.968] global_vars signature result: 0x7FFBF943C8D0
+[16:26:33.004] entity_list signature result: 0x7FFBF9113D10
+[16:26:33.015] local_player signature result: match=0x7FFBF7293F54 resolved=0x7FFBF9293DD8
+[16:26:33.303] local_pawn signature result: match=0x7FFBF7A328E3 resolved=0x7FFBF9422928
+[16:26:33.340] view_matrix signature result: match=0x7FFBF7AF31C3 resolved=0x7FFBF9441CD0
+[16:26:34.643] Resolved state: vm=0x7FFBF9441CD0 local_player=0x7FFBF9293DD8 local_pawn=0x7FFBF9422928 entity_list=0x7FFBF9113D10 gv=0x7FFBF943C8D0
+[16:26:34.643] Netvars: hp=0x344 team=0x3E3 pawn=0x92C origin=0x138
+[16:26:34.643] offsets OK (entity_list=7FFBF9113D10 trace=7FFBF8848050)
+[16:26:34.644] installing render hooks...
+[16:26:34.780] render hooks installed
+[16:26:37.267] tick: ctrl=0x0000046CE4865EA0 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:26:39.989] tick: ctrl=0x0000046CE4865EA0 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:26:43.021] tick: ctrl=0x0000046CE4865EA0 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:26:49.513] tick: ctrl=0x0000000000000000 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:26:54.586] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:26:59.267] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:03.825] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:08.844] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:13.594] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:18.470] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:23.590] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:28.462] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:33.940] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:40.181] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:45.419] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:50.459] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:27:55.183] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:00.234] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:05.837] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:11.532] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:16.693] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:21.600] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:27.483] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:33.303] tick: ctrl=0x0000046CE3032240 pawn=0x0000046C25F8F800 direct=0x0000046C25F8F800 sys=0x7FFBF9452460 pawns=0 enemies=0 hp=0 team=0
+[16:28:37.103] shutting down

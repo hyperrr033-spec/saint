@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/cmake_install.cmake",
+		"C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

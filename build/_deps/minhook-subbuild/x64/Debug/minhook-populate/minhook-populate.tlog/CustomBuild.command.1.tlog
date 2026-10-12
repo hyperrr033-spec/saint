@@ -1,0 +1,150 @@
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\minhook-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/tmp/minhook-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1547B2E10686B08C24917D81D03DDF10\MINHOOK-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\minhook-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\40796752514DF67D89E4EFC07BF04C0C\MINHOOK-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/Debug/minhook-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/minhook-populate-prefix/src/minhook-populate-stamp/Debug/minhook-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKEFILES\1F7C726E89AEBFE63EDF2E272974F13F\MINHOOK-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\.GEMINI\ANTIGRAVITY-IDE\SCRATCH\CS2-INTERNAL\BUILD\_DEPS\MINHOOK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild -BC:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild --check-stamp-file C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

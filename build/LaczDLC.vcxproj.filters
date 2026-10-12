@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\core\memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\core\pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\core\hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\core\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\core\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\sdk\interfaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\sdk\offsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\sdk\schema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\sdk\entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\sdk\weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\render\renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\render\hook_d3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\gui\widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\gui\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\features.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\aimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\triggerbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\rage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\antiaim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\esp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\chams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\skins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\src\features\misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-src\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-src\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-src\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-src\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-src\backends\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\build\_deps\imgui-src\backends\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\.gemini\antigravity-ide\scratch\cs2-internal\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7EA4BD97-3E5E-32A3-A649-BB3CD93E1B92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

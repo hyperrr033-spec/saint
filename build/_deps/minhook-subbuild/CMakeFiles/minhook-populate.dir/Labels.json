@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/minhook-populate"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1f7c726e89aebfe63edf2e272974f13f/minhook-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/40796752514df67d89e4efc07bf04c0c/minhook-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-subbuild/CMakeFiles/1547b2e10686b08c24917d81d03ddf10/minhook-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"minhook-populate"
+		],
+		"name" : "minhook-populate"
+	}
+}

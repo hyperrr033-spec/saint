@@ -1,0 +1,8 @@
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/CMakeFiles/LaczDLC.dir
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/CMakeFiles/LaczLoader.dir
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/CMakeFiles/INSTALL.dir
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-build/CMakeFiles/minhook.dir
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-build/CMakeFiles/INSTALL.dir
+C:/Users/Administrator/.gemini/antigravity-ide/scratch/cs2-internal/build/_deps/minhook-build/CMakeFiles/ALL_BUILD.dir
