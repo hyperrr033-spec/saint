@@ -5,6 +5,7 @@
 #include "../features/features.hpp"
 #include <imgui_internal.h>
 #include <ctime>
+#include <cstring>
 
 namespace lacz::gui::menu {
 
