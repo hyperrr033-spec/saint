@@ -6,7 +6,7 @@
 #include "../sdk/offsets.hpp"
 #include "../sdk/schema.hpp"
 #include "../core/memory.hpp"
-#include "../core/log.hpp""
+#include "../core/log.hpp"
 
 namespace lacz::features {
 using namespace shared;
