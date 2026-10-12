@@ -1,0 +1,7 @@
+build/
+_deps/
+*.user
+*.suo
+*.log
+.vs/
+out/
