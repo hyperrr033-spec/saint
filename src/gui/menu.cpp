@@ -19,6 +19,7 @@ static int   g_prev_tab = 0;
 // Config editor state.
 static char g_config_name[32] = "default";
 static std::vector<std::string> g_configs;
+static const char* g_config_status = "Ready";
 
 // Tab definitions.
 enum tab_index : int {
@@ -348,14 +349,24 @@ static void page_settings() {
     section("Config");
     text_input("Config name", g_config_name, sizeof(g_config_name));
     if (button("Save", ImVec2(ImGui::GetContentRegionAvail().x * 0.48f, 30.f), true)) {
-        cfg::save(g_config_name);
-        g_configs = cfg::list();
+        if (cfg::save(g_config_name)) {
+            g_configs = cfg::list();
+            g_config_status = "Config saved";
+        } else {
+            g_config_status = "Save failed: check the name and config folder";
+        }
     }
     ImGui::SameLine();
     if (button("Load", ImVec2(0, 30.f), true)) {
-        cfg::load(g_config_name);
+        g_config_status = cfg::load(g_config_name)
+            ? "Config loaded"
+            : "Load failed: config not found or unreadable";
     }
-    ImGui::Dummy(ImVec2(0, 6));
+    ImGui::Dummy(ImVec2(0, 4));
+    ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.62f, 0.62f, 0.70f, 1.f));
+    ImGui::TextUnformatted(g_config_status);
+    ImGui::PopStyleColor();
+    ImGui::Dummy(ImVec2(0, 4));
 
     if (!g_configs.empty()) {
         ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.62f, 0.62f, 0.70f, 1.f));
