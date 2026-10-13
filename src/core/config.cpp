@@ -2,15 +2,23 @@
 #include <fstream>
 #include <sstream>
 #include <filesystem>
+#include <cmath>
+#include <exception>
 
 namespace lacz::cfg {
 
 std::string directory() {
     char path[MAX_PATH]{};
-    GetEnvironmentVariableA("APPDATA", path, MAX_PATH);
-    std::string dir = std::string(path) + "\\LaczDLC\\configs";
-    std::filesystem::create_directories(dir);
-    return dir;
+    const DWORD length = GetEnvironmentVariableA("APPDATA", path, MAX_PATH);
+    if (length == 0 || length >= MAX_PATH)
+        return {};
+
+    const auto dir = std::filesystem::path(path) / "LaczDLC" / "configs";
+    std::error_code ec;
+    std::filesystem::create_directories(dir, ec);
+    if (ec)
+        return {};
+    return dir.string();
 }
 
 // ---------------------------------------------------------------------------
@@ -161,16 +169,36 @@ static std::string serialize() {
     return o.str();
 }
 
-static void write_cfg(const std::string& file) {
+static bool write_cfg(const std::string& file) {
     std::ofstream out(file, std::ios::trunc);
     if (!out.is_open())
-        return;
-    out << serialize();
+        return false;
+
+    const std::string data = serialize();
+    out.write(data.data(), static_cast<std::streamsize>(data.size()));
+    out.flush();
+    const bool ok = out.good();
+    out.close();
+    return ok && !out.fail();
 }
 
 bool save(const std::string& name) {
-    write_cfg(directory() + "\\" + name + ".lacz");
-    return true;
+    // Config names are file stems, not paths. Reject empty names and path
+    // separators to avoid accidental writes outside the config directory.
+    if (name.empty() || name == "." || name == ".." ||
+        name.find_first_of("/\\\\:") != std::string::npos)
+        return false;
+
+    try {
+        const auto dir = directory();
+        if (dir.empty())
+            return false;
+        return write_cfg(dir + "\\" + name + ".lacz");
+    } catch (const std::filesystem::filesystem_error&) {
+        return false;
+    } catch (const std::ios_base::failure&) {
+        return false;
+    }
 }
 
 // ---------------------------------------------------------------------------
@@ -197,8 +225,28 @@ static void parse(const std::string& text) {
         std::string val = line.substr(eq + 1);
 
         auto b = [&] { return val == "1"; };
-        auto i = [&](int d) { return val.empty() ? d : std::stoi(val); };
-        auto f = [&](float d) { return val.empty() ? d : std::stof(val); };
+        auto i = [&](int d) {
+            if (val.empty())
+                return d;
+            try {
+                std::size_t used = 0;
+                const int parsed = std::stoi(val, &used, 10);
+                return used == val.size() ? parsed : d;
+            } catch (const std::exception&) {
+                return d;
+            }
+        };
+        auto f = [&](float d) {
+            if (val.empty())
+                return d;
+            try {
+                std::size_t used = 0;
+                const float parsed = std::stof(val, &used);
+                return used == val.size() && std::isfinite(parsed) ? parsed : d;
+            } catch (const std::exception&) {
+                return d;
+            }
+        };
 
         if (section == "aimbot") {
             if (key=="enabled") g.aimbot.enabled=b();
@@ -329,20 +377,46 @@ static void parse(const std::string& text) {
 }
 
 bool load(const std::string& name) {
-    std::ifstream in(directory() + "\\" + name + ".lacz");
-    if (!in.is_open())
+    if (name.empty() || name == "." || name == ".." ||
+        name.find_first_of("/\\\\:") != std::string::npos)
         return false;
-    std::stringstream buf;
-    buf << in.rdbuf();
-    parse(buf.str());
-    return true;
+
+    try {
+        const auto dir = directory();
+        if (dir.empty())
+            return false;
+        std::ifstream in(dir + "\\" + name + ".lacz");
+        if (!in.is_open())
+            return false;
+
+        std::stringstream buf;
+        buf << in.rdbuf();
+        if (in.bad())
+            return false;
+
+        parse(buf.str());
+        return true;
+    } catch (const std::filesystem::filesystem_error&) {
+        return false;
+    } catch (const std::ios_base::failure&) {
+        return false;
+    }
 }
 
 std::vector<std::string> list() {
     std::vector<std::string> out;
-    for (auto& entry : std::filesystem::directory_iterator(directory())) {
-        if (entry.path().extension() == ".lacz")
-            out.push_back(entry.path().stem().string());
+    try {
+        const auto dir = directory();
+        if (dir.empty() || !std::filesystem::exists(dir))
+            return out;
+
+        for (const auto& entry : std::filesystem::directory_iterator(dir)) {
+            if (entry.is_regular_file() && entry.path().extension() == ".lacz")
+                out.push_back(entry.path().stem().string());
+        }
+    } catch (const std::filesystem::filesystem_error&) {
+        // Return the entries found so far (or an empty list) if enumeration
+        // fails; callers can still display an empty config list.
     }
     return out;
 }

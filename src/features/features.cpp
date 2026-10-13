@@ -6,6 +6,7 @@
 #include "../sdk/offsets.hpp"
 #include "../sdk/schema.hpp"
 #include "../core/memory.hpp"
+#include "../core/log.hpp"
 
 namespace lacz::features {
 using namespace shared;
@@ -57,23 +58,48 @@ static void __fastcall frame_stage_detour(void* client, int stage) {
 }
 
 static bool install_hooks() {
-    auto& hooks = hooks::manager::get();
+    auto& hook_manager = hooks::manager::get();
+    bool attempted = false;
+    bool all_ok = true;
+
     if (off::sigs.create_move) {
-        hooks.attach(reinterpret_cast<void*>(off::sigs.create_move),
-                     hooks::as_ptr(&create_move_detour),
-                     reinterpret_cast<void**>(&o_create_move), "CreateMove");
+        attempted = true;
+        const bool ok = hook_manager.attach(
+            reinterpret_cast<void*>(off::sigs.create_move),
+            hooks::as_ptr(&create_move_detour),
+            reinterpret_cast<void**>(&o_create_move), "CreateMove");
+        if (!ok)
+            log::write("CreateMove hook attach failed (target=%p)", reinterpret_cast<void*>(off::sigs.create_move));
+        all_ok = all_ok && ok;
+    } else {
+        log::write("CreateMove hook skipped: signature unavailable");
+        all_ok = false;
     }
+
     if (off::sigs.frame_stage) {
-        hooks.attach(reinterpret_cast<void*>(off::sigs.frame_stage),
-                     hooks::as_ptr(&frame_stage_detour),
-                     reinterpret_cast<void**>(&o_frame_stage), "FrameStageNotify");
+        attempted = true;
+        const bool ok = hook_manager.attach(
+            reinterpret_cast<void*>(off::sigs.frame_stage),
+            hooks::as_ptr(&frame_stage_detour),
+            reinterpret_cast<void**>(&o_frame_stage), "FrameStageNotify");
+        if (!ok)
+            log::write("FrameStageNotify hook attach failed (target=%p)", reinterpret_cast<void*>(off::sigs.frame_stage));
+        all_ok = all_ok && ok;
+    } else {
+        log::write("FrameStageNotify hook skipped: signature unavailable");
+        all_ok = false;
     }
-    return true;
+
+    if (!attempted)
+        log::write("No feature hooks attempted");
+    return attempted && all_ok;
 }
 
 void initialize() {
-    install_hooks();
-    snprintf(g_status, sizeof(g_status), "%s", "initialized");
+    const bool ok = install_hooks();
+    snprintf(g_status, sizeof(g_status), "%s",
+             ok ? "hooks installed" : "hook install failed");
+    log::write("feature hook initialization: %s", g_status);
 }
 
 void on_frame() {

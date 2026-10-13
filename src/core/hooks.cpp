@@ -23,10 +23,19 @@ bool manager::attach(void* target, void* detour, void** original, const char* na
     if (!initialized_ || !target || !detour)
         return false;
 
-    if (MH_CreateHook(target, detour, original) != MH_OK)
+    const MH_STATUS create_status = MH_CreateHook(target, detour, original);
+    if (create_status != MH_OK)
         return false;
-    if (MH_EnableHook(target) != MH_OK)
+
+    const MH_STATUS enable_status = MH_EnableHook(target);
+    if (enable_status != MH_OK) {
+        // Creation succeeded but activation failed. Remove the inactive hook so
+        // a later retry does not fail with MH_ERROR_ALREADY_CREATED.
+        MH_RemoveHook(target);
+        if (original)
+            *original = nullptr;
         return false;
+    }
 
     entries_.push_back({target, detour, original, name ? name : "hook", true});
     return true;
